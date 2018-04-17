@@ -1,0 +1,191 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    animation: squareCircle 20s 5s alternate; 
+    padding-left: 200px;
+    padding-right: 500px;
+}
+
+
+@keyframes squareCircle {
+    0% {
+        border-radius: 0 0 0 0;
+        background-color: coral;
+        transform: rotate(0deg);
+        } /*initial state*/
+    25% {
+        border-radius: 50% 0 0 0;
+        background-color: yellow;
+       	transform: rotate(45deg); 
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        background-color: red;
+        transform: rotate(90deg);
+	}
+
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background-color: pink;
+        transform: rotate(135deg);
+    }
+    100%{
+        border-radius: 50% 50% 50% 50%;
+        background-color: orange;
+        transform: rotate(180deg);
+        transition-duration: 20s;
+        } /*final state*/
+
+    
+} 
+
+#sixty {
+	width: 900px;
+	height: 500px;
+
+}
+
+#one {
+	text-align: center;
+	color: #808080
+}
+
+#two {
+	text-align: center;
+	color: #808080
+}
+
+
+#three {
+	text-align: center;
+	color: #808080
+}
+
+#four {
+	text-align: center;
+	color: #808080
+}
+
+#image1 {
+	float: left;
+	width: 300px;
+	height: 220px;
+   	padding: 20px;
+   	padding-right: 70px;
+
+}
+
+#five {
+	text-align: left;
+	padding-right: 70px;
+}
+
+#seven {
+	text-align: left;
+	padding-right: 70px;
+	padding-bottom: 10px;
+}
+
+.six {
+	font-family: verdana;
+	text-align: center;
+	padding-right: 300px;
+	padding-left: 300px;
+	background-color: center, #F9D7A4; 
+	font-size: "18";
+}
+
+#eight {
+	float: center: 
+	width: 250px;
+	height: 220px;
+	padding-left: 450px;
+
+}
+
+#nine {
+	text-align: center;
+	border-bottom: 1px, solid black;
+}
+
+#ten {
+	text-align: center;
+	border-bottom: 
+}
+
+#eleven {
+	float: center: 
+	width: 250px;
+	height: 220px;
+	padding-left: 450px;
+	background-color: #008CBA;
+
+}
+
+.twelve {
+	float: center;
+	padding-left: 700px;
+	padding-right: 200px;
+	padding-bottom: 20px;
+}
+
+.thirteen {
+	text-align: left;
+	padding-right: 700px;
+	padding-left: 300px;
+	
+
+}
+
+#fourteen {
+	float: center: 
+	width: 250px;
+	height: 220px;
+	padding-left: 450px;
+
+}
+
+#fifteen {
+	float: center;
+	width: 300px;
+	height: 200px;
+   	padding: 20px;
+   	padding-right: 30px;
+   	padding-left: 440px;
+   padding-top: 70px;
+   background-color:  #008CBA;
+
+}
+
+#bagel {
+
+	padding-left: 400px;
+	width: 500px;
+	height: 300px;
+
+}
+
+#fifty {
+	text-align: center;
+	padding-left: 500px;
+	padding-right: 500px;
+}
+
+#seventy {
+	text-align: center;
+	padding-left: 500px;
+	padding-right: 650px;
+
+}
+
+
+#zero {
+	text-align: left;
+
+}
+
+.salad {
+	padding-right: 100px;
+}
